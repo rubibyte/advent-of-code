@@ -86,7 +86,7 @@ int	main(void)
 			}
 			else
 			{
-				temp += atoi(line);
+				temp += ft_atoi(line);
 			}
 		}
 		else
