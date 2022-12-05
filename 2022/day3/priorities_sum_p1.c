@@ -25,7 +25,7 @@ int	main(void)
 	int		i;
 	char	*second_half;
 
-	fd = open("input.txt", O_RDONLY);
+	fd = open("inpu.txt", O_RDONLY);
 	line = "1";
 	priorities_sum = 0;
 	while (line)
@@ -34,7 +34,7 @@ int	main(void)
 		if (line)
 		{
 			len = ft_strlen(line) - 1;
-			second_half = ft_substr(line, len / 2, len / 2);
+			second_half = line + len / 2;
 			i = 0;
 			while (i < len / 2)
 			{
