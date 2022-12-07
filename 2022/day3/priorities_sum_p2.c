@@ -76,6 +76,7 @@ int	main(void)
 		free(line3);
 		line3 = NULL;
 	}
+	close(fd);
 	printf("\nFind the item type that corresponds to the badges of \
 each three-Elf group. What is the sum of the priorities of those \
 item types?\n\nAnswer: %i\n", priorities_sum);

@@ -49,6 +49,7 @@ int	main(void)
 		}
 		free(line);
 	}
+	close(fd);
 	printf("In how many assignment pairs do the ranges \
 overlap?\n\nAnswer: %i\n", total_overlapping_pairs);
 	return (0);

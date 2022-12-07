@@ -49,6 +49,7 @@ int	main(void)
 		}
 		free(line);
 	}
+	close(fd);
 	printf("In how many assignment pairs does one range fully contain \
 the other?\n\nAnswer: %i\n", total_redundant_pairs);
 	return (0);

@@ -52,6 +52,7 @@ int	main(void)
 		}
 		free(line);
 	}
+	close(fd);
 	printf("\nFind the item type that appears in both compartments \
 of each rucksack. What is the sum of the priorities of those item \
 types?\n\nAnswer: %i\n", priorities_sum);
