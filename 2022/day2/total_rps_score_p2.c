@@ -1,4 +1,4 @@
-#include "../include/get_next_line.h"
+#include "../include/my_lib.h"
 #include <stdio.h>
 #include <unistd.h>
 #include <fcntl.h>

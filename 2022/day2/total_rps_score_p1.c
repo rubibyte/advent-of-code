@@ -1,4 +1,4 @@
-#include "../include/get_next_line.h"
+#include "../include/my_lib.h"
 #include <stdio.h>
 #include <unistd.h>
 #include <fcntl.h>
@@ -46,6 +46,7 @@ int	main(int argc, char **argv)
 	{
 		fd = open(argv[1], O_RDONLY);
 		total_score = 0;
+		line = "1";
 		while (line)
 		{
 			line = get_next_line(fd);

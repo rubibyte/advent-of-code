@@ -1,5 +1,4 @@
-#include "../include/get_next_line.h"
-#include "../include/libft.h"
+#include "../include/my_lib.h"
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
@@ -25,7 +24,7 @@ int	main(void)
 	int		i;
 	char	*second_half;
 
-	fd = open("inpu.txt", O_RDONLY);
+	fd = open("input.txt", O_RDONLY);
 	line = "1";
 	priorities_sum = 0;
 	while (line)

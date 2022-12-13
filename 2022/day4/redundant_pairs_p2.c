@@ -1,5 +1,4 @@
-#include "../include/get_next_line.h"
-#include "../include/libft.h"
+#include "../include/my_lib.h"
 #include <stdio.h>
 #include <unistd.h>
 #include <fcntl.h>
@@ -35,7 +34,6 @@ int	main(void)
 			pair1[1] = 0;
 			pair2[0] = 0;
 			pair2[1] = 0;
-			printf("%s", line);
 			while (ft_isdigit(line[++i]))
 				pair1[0] = pair1[0] * 10 + (line[i] - 48);
 			while (ft_isdigit(line[++i]))
